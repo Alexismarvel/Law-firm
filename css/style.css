@@ -203,26 +203,20 @@ ul {
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--primary);
+  display: inline-block;
+  line-height: 1;
   text-decoration: none;
-  line-height: 1.2;
 }
 
-.logo span {
-  color: var(--accent);
+.logo img {
   display: block;
-  font-size: 12px;
-  font-family: var(--font-sans);
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 400;
+  vertical-align: middle;
+  height: 78px;
+  width: auto;
 }
 
 .logo:hover {
-  color: var(--primary);
+  opacity: 0.9;
 }
 
 .nav {
@@ -239,6 +233,7 @@ ul {
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
+  white-space: nowrap;
 }
 
 .nav a::after {
@@ -710,14 +705,11 @@ ul {
 }
 
 .footer-logo {
-  font-family: var(--font-heading);
-  font-size: 24px;
-  color: var(--white);
   margin-bottom: 12px;
 }
 
-.footer-logo span {
-  color: var(--accent-light);
+.footer-logo img {
+  display: block;
 }
 
 .footer-bottom {
